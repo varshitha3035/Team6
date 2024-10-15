@@ -1,0 +1,100 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 BLOGPAGE
+  
+  .row
+    .col-12.col-lg-9
+      .row
+        .col-12.col-md-6
+          p.rating
+            i.fas.fa-star
+            i.fas.fa-star
+            i.fas.fa-star
+            i.far.fa-star
+            i.far.fa-star
+          p Blog
+          
+          .card.card-primary
+            .card-block
+              h2.card-title Food
+              p.card-text INDIAN 
+              p.card-text Indian cuisine reflects an 8,000-year history of various groups and cultures interacting with the Indian subcontinent, leading to diversity of flavours and regional cuisines found in modern-day India. Later, trade with British and Portuguese influence added to the already diverse Indian cuisine.
+              p.card-text ITALIAN 
+              p.card-text Italian cuisine has developed over the centuries. Although the country known as Italy did not unite until the 19th century, the cuisine can claim traceable roots as far back as the 4th century BC. 
+              p.card-text many more...
+               .card.card-primary.image-card
+        .card-block
+          h2.card-title Images
+          .row
+              .col-4
+              img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEohHFHn6DWDt_ybyLDMjX4ykvt4lvw1kkA&s', alt='Image 1', class='img-fluid')
+              .col-4
+              img(src='https://c.ndtvimg.com/2021-04/umk8i7ko_pasta_625x300_01_April_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886', alt='Image 2', class='img-fluid')
+
+          .card.card-primary
+            .card-block
+              h2.card-title contacts
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;9618327892
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;pranayrdy40@gmail.com
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;pranay
+              | &nbsp;
+      .col-12
+        .card.card-primary.review-card
+          .card-block
+            a.btn.btn-primary.float-right(href='/location/review/new')
+              | Add review
+            h2.card-title Customer reviews
+            
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor K.Pranay,
+                small.reviewTimestamp 22 July 2024
+              .col-12
+                p It was good  blogopage and lifestyle for stress relief
+
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor K.varshitha,
+                small.reviewTimestamp 30 February 2024
+              .col-12
+                p It was good for life style.
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor saketh.y,
+                small.reviewTimestamp 14 march 2024
+              .col-12
+                p average..can do better.
+    .col-12.col-lg-3
+      p.lead
+        |<h4><p style="color: white;">
+
+</h4>
